@@ -1,7 +1,12 @@
-public class Main {
-    public static void main(String[] args) {
+import java.util.Scanner;
 
-    System.out.println("Hello, World!");
-}
-
+public class Main{
+    public static void main(String[]args){
+        Scanner in = new Scanner(System.in);
+        System.out.println("First name:");
+        String firstName = in.next();
+        System.out.println("Last name:");
+        String lastName=in.next();
+        System.out.println("Hello," + firstName + " " + lastName + "!");
+    }
 }
